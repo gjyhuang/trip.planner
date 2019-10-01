@@ -12,3 +12,43 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #c1b5ad;
 }
+
+header {
+  background-color: #1985A1;
+  color: #DCDCDD;
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0px;
+  z-index: 3;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  flex-basis: 400px;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+header nav a {
+  color: #DCDCDD;
+  text-decoration: none;
+}
+
+#sidebar {
+  background-color: #4C5C68;
+  display: flex;
+  position: fixed;
+  padding-top: 15px;
+  right: 0px;
+  height: 100%;
+  width: 20%;
+  z-index: 2;
+}
